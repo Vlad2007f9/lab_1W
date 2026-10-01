@@ -6,15 +6,16 @@
         <meta name="description" content="Головна сторінка навчального лендінгу: новини, послуги, переваги.">
         <title>Лабораторна 2</title>
         <link rel="icon" href="assets/images/favicon.ico">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <header class="header">
             <h1 id="site-title">Мій перший лендінг</h1>
             <nav class="navigation" aria-label="Головна навігація">
-                <ul class="navigation__lsit">
-                    <li class="navigation__item"><a href="index.html">Головна</a></li>
-                    <li class="navigation__item"><a href="about.html">Про нас</a></li>
-                    <li class="navigation__item"><a href="contacts.html" aria-current="page">Контакти</a></li>
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="index.html" class="navigation__link">Головна</a></li>
+                    <li class="navigation__item"><a href="about.html" class="navigation__link">Про нас</a></li>
+                    <li class="navigation__item"><a href="contacts.html" class="navigation__link" aria-current="page">Контакти</a></li>
                 </ul>
             </nav>
         </header>
@@ -45,11 +46,11 @@
                             name="email"
                             placeholder="Ваш email"
                             required   
-                            contact-form__input                 
+                            class="contact-form__input"                 
                     /> 
                 </div>
                 <div class="contact-form__item">
-                    <label for="phone" class="contact-item__label">Телефон</label>
+                    <label for="phone" class="contact-form__label">Телефон</label>
                     <input
                             type="tel"
                             id="phone"
@@ -61,40 +62,38 @@
                             class="contact-form__input"
                     />
                 </div>
-                <div class=contact-form__iten>
-                    <label for="msg" contact-form__label>Повідомлення</label>
+                <div class="contact-form__item">
+                    <label for="msg" class="contact-form__label">Повідомлення</label>
                     <textarea
                             id="msg"
                             name="msg"
                             placeholder="Ваше повідомлення"
                             rows="5"
                             required
-                            minlength = "10"
-                            maxlength= "500"
+                            minlength="10"
+                            maxlength="500"
                             class="contact-form__textarea"
                     ></textarea>
                 </div>
-                <button type="submit" class="contact-from__button">Надіслати</button>
+                <button type="submit" class="contact-form__button">Надіслати</button>
             </form>
             <section aria-labelledby="contacts-title" class="contact-section">
                 <h3 class="contact-section__title">Наші контакти</h3>
-                <address contact-section__item>
-                    <p class="contact=section-address__text">Email: <a href="mailto:example@mail.com">example@mail.com</a></p>
-                    <p class="contact=section-address__text">Телефон: <a href="tel:+380501234567">+38 (050) 123-45-67</a></p>
-                    <p class="contact=section-address__text">Адреса: м. Запоріжжяб вул. Університетська, 65</p>
+                <address class="contact-section__item">
+                    <p class="contact-section-address__text">Email: <a class="contact-section-address__link" href="mailto:example@mail.com">example@mail.com</a></p>
+                    <p class="contact-section-address__text">Телефон: <a class="contact-section-address__link" href="tel:+380501234567">+38 (050) 123-45-67</a></p>
+                    <p class="contact-section-address__text">Адреса: м. Запоріжжя, вул. Університетська, 65</p>
                 </address>
             </section>
         </main>
         <aside class="sidebar sidebar--social" aria-label="Додаткова інформація">
             <h3 class="sidebar__title">Соціальні мережі</h3>
             <ul class="sidebar__list">
-                <li class="sidebar__item"><a href="#" aria-label="Ми у Facebook">Facebook</a></li>
-                <li class=sidebar__item><a href="#" aria-label="Ми у Instagram">Instagram</a></li>
-                <li class="sidebar__item"><a href="#" aria-label="Ми у LinkedIn">LinkedIN</a></li>
+                <li class="sidebar__item"><a href="#" aria-label="Ми у Facebook" class="sidebar__link">Facebook</a></li>
+                <li class="sidebar__item"><a href="#" aria-label="Ми у Instagram" class="sidebar__link">Instagram</a></li>
+                <li class="sidebar__item"><a href="#" aria-label="Ми у LinkedIn" class="sidebar__link">LinkedIN</a></li>
             </ul>
         </aside>
-
-
 
         <footer class="footer">
             <p class="footer__text">© 2026 Група 6.1214-пі-1</p>
