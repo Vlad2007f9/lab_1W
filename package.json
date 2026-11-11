@@ -1,0 +1,30 @@
+{
+  "name": "lab_1w",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private" : true,
+  "scripts": {
+    "dev" : "vite",
+    "build" : "vite build",
+    "preview" : "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vlad2007f9/lab_1W.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type" : "module",
+  "bugs": {
+    "url": "https://github.com/Vlad2007f9/lab_1W/issues"
+  },
+  "homepage": "https://github.com/Vlad2007f9/lab_1W#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.6.2",
+    "postcss": "^8.5.32",
+    "sass-embedded": "^1.108.1",
+    "vite": "^8.3.7"
+  }
+}
