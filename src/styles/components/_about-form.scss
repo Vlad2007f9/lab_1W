@@ -1,0 +1,28 @@
+@use '../_index' as ui;
+
+.skills {
+    margin-top: var(--space-6);
+    padding: var(--space-4);
+    background: var(--surface);
+    border: 1px var(--c-border);
+    border-radius: var(--radius-2);
+    color: var(--fg);
+
+
+    &__title {
+        margin: 0 0 var(--space-3);
+        font-size: 1.25rem;
+    }
+
+    &__list {
+        display: grid;
+        gap: var(--space-2);
+        padding-left: var(--space-4);
+    }
+
+    &__item {
+        color: var(--fg);
+    }
+}
+
+
