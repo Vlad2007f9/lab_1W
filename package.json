@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "private" : true,
+  "private": true,
   "scripts": {
-    "dev" : "vite",
-    "build" : "vite build",
-    "preview" : "vite preview"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type" : "module",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/Vlad2007f9/lab_1W/issues"
   },
@@ -25,6 +25,7 @@
     "autoprefixer": "^10.6.2",
     "postcss": "^8.5.32",
     "sass-embedded": "^1.108.1",
-    "vite": "^8.3.7"
+    "vite": "^8.3.7",
+    "vite-plugin-handlebars": "^2.0.3"
   }
 }
